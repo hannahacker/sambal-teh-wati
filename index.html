@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sambel Teh Wati</title>
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary px-3 shadow-sm" style="background-color: #9c1919 !important;">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold text-white" href="#">Sambel Teh Wati</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tentang</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Varian Sambel</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Kontak</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<div id="home" class="bg-gradient text-white text-center py-5" style="background-color: #faf0e6 !important;">
+    <div class="container">
+        <span class="badge text-white" style="background-color: #f78a8a !important;">Sambel Homemade</span>
+        <h1 class="text-danger">Sambel Teh Wati</h1>
+        <h2 class="text-danger">Pedasnya Bikin Nagih!</h2>
+        <p class="text-dark">Sambel rumahan dengan cita rasa khas, dibuat dari bahan pilihan dan resep keluarga</p>
+        <button type="button" class="btn rounded-pill btn-danger btn-sm">Pesan Sekarang</button>
+        <button type="button" class="btn rounded-pill btn-light btn-sm text-danger">Lihat Varian</button>
+    </div>
+</div>
+
+<!-- varian menu Section -->
+<div id="varian" class="container py-5">
+    <h2 class="text-center mb-3" >Varian Sambel</h2>
+    <p class="text-dark text-center mb-3">Pilihan sambel spesial Teh Wati, siap bikin makan nikmat!</p>
+    <div class="row g-4">
+    <!-- card 1 -->
+    <div class="col-md-4">
+      <div class="card border-danger border-2 shadow-sm" style="width: 18rem;">
+        <img src="images/sambel baby cumi.png" class="card-img-top" alt="Sambel Baby Cumi">
+        <div class="card-body">
+          <h5 class="card-title">Sambel Baby Cumi</h5>
+          <p class="card-text">Perpaduan baby cumi dengan sambel berbumbu yang gurih dan pedas, cocok banget dinikmati bersama nasi hangat. Pilihan pas buat kamu yang suka sensasi pedas dengan cita rasa seafood yang menggugah selera.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- card 2 -->
+    <div class="col-md-4">
+      <div class="card border-danger border-2 shadow-sm" style="width: 18rem;">
+        <img src="images/sambel tuna suwir.png" class="card-img-top" alt="Sambel Tuna Suwir">
+        <div class="card-body">
+          <h5 class="card-title">Sambel Tuna Suwir</h5>
+          <p class="card-text">Nikmati perpaduan tuna suwir dan sambel pedas berbumbu yang menggugah selera. Cocok dijadikan teman makan nasi hangat, lauk praktis sehari-hari, atau stok sambel favorit di rumah.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- card 3 -->
+    <div class="col-md-4">
+      <div class="card border-danger border-2 shadow-sm" style="width: 18rem;">
+        <img src="images/sambel terasi.png" class="card-img-top" alt="Sambel Terasi">
+        <div class="card-body">
+          <h5 class="card-title">Sambel Terasi</h5>
+          <p class="card-text">Sambel terasi dengan perpaduan cabai dan terasi yang menghadirkan cita rasa pedas, gurih, dan khas Nusantara. Cocok banget jadi teman nasi hangat, lalapan, dan aneka lauk favorit keluarga!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Kontak -->
+<div id="kontak" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Kontak</h2>
+        <!-- Formulir -->
+        <form class="bg-white p-4 rounded shadow-sm mx-auto" style="max-width: 500px;">
+            <!-- Input Nama -->
+            <div class="mb-3">
+                <label for="input-nama" class="form-label">Nama</label>
+                <input type="text" class="form-control" id="input-nama" placeholder="Masukkan nama Anda">
+            </div>
+            <!-- Input Email -->
+             <div class="mb-3">
+             <label for="exampleInputEmail1" class="form-label">Email address</label>
+             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+             </div>
+            <!-- Input Pesan -->
+            <div class="mb-3">
+                <label for="input-pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="input-pesan" rows="3"></textarea>
+            </div>
+            <!-- button submit -->
+            <button type="submit" class="btn btn-danger">Kirim pesan</button>
+        </form>
+    </div>
+</div>
+
+<!-- Footer -->
+ <footer class="bg-danger text-white text-center py-4">
+    <small>&copy; 2026 - Hanna Tugas Mandiri Pemrograman Internet - Pertemuan 6</small>
+ </footer>
+
+<!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
